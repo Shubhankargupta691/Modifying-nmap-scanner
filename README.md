@@ -27,17 +27,17 @@ Nmap (Network Mapper) is a free and open-source tool used for network exploratio
      By analyzing the responses from the target system, an attacker can determine which ports are open and which are closed or filtered. 
      This information can be useful in determining the attack surface of a system, identifying potential vulnerabilities, and developing an attack plan.
 
-     It is important to note that SYN ACK scans can be detected by intrusion detection and prevention systems (IDS/IPS), firewalls, and other security measures.                  Additionally, using SYN ACK scans against systems that you do not have permission to scan is illegal and can lead to severe consequences.
+     It is important to note that SYN ACK scans can be detected by intrusion detection and prevention systems (IDS/IPS), firewalls, and other security measures. Additionally, using SYN ACK scans against systems that you do not have permission to scan is illegal and can lead to severe consequences.
 
 # 2) UDP Scan
     A UDP (User Datagram Protocol) scan is a type of network scan used to identify open UDP ports on a target system.
     UDP is a connectionless protocol, and unlike TCP, there is no handshake process to establish a connection. 
     This makes UDP scans more difficult than TCP scans, as there is no confirmation that the packet has reached its destination.
 
-    UDP scans work by sending a UDP packet to a specific port on the target system. If the port is open, the target system will respond with a UDP packet. If the port is       closed, the target system will respond with an ICMP (Internet Control Message Protocol) packet indicating that the port is unreachable.
+    UDP scans work by sending a UDP packet to a specific port on the target system. If the port is open, the target system will respond with a UDP packet. If the port is closed, the target system will respond with an ICMP (Internet Control Message Protocol) packet indicating that the port is unreachable.
     If the port is filtered, the target system will not respond at all.
 
-    UDP scans can be used to identify potential vulnerabilities in services that use the UDP protocol, such as DNS (Domain Name System), DHCP (Dynamic Host Configuration       Protocol), and SNMP (Simple Network Management Protocol). 
+    UDP scans can be used to identify potential vulnerabilities in services that use the UDP protocol, such as DNS (Domain Name System), DHCP (Dynamic Host Configuration Protocol), and SNMP (Simple Network Management Protocol). 
     However, UDP scans are often less reliable than TCP scans, as they can be affected by network congestion, packet loss, and other factors.
 
 # 3) Comprehensive Scan
@@ -53,8 +53,8 @@ Nmap (Network Mapper) is a free and open-source tool used for network exploratio
 
     A comprehensive scan can be performed using various tools and techniques, including vulnerability scanners, port scanners, and network mapping tools.
 
-    The main advantage of a comprehensive scan is that it can help organizations identify all potential security vulnerabilities in their network, including misconfigured       devices, outdated software, and other weaknesses.
+    The main advantage of a comprehensive scan is that it can help organizations identify all potential security vulnerabilities in their network, including misconfigured devices, outdated software, and other weaknesses.
 
-    A comprehensive scan can also help organizations meet regulatory compliance requirements, such as those related to the Payment Card Industry Data Security Standard (PCI     DSS).
+    A comprehensive scan can also help organizations meet regulatory compliance requirements, such as those related to the Payment Card Industry Data Security Standard (PCI DSS).
 
-    It is important to note that a comprehensive scan should only be performed with the permission of the network owner, as it can be disruptive and potentially harmful if     not performed correctly.
+    It is important to note that a comprehensive scan should only be performed with the permission of the network owner, as it can be disruptive and potentially harmful if not performed correctly.
