@@ -20,7 +20,8 @@ Nmap (Network Mapper) is a free and open-source tool used for network exploratio
      A SYN ACK scan is a type of port scan that is used to determine which ports on a target system are open, closed, or filtered.
      This type of scan is also known as a TCP SYN ACK scan, or simply a SYN scan.
      The SYN ACK scan works by sending a SYN (synchronize) packet to the target system on a specific port. 
-     If the port is open, the target system will respond with a SYN ACK (synchronize-acknowledge) packet. If the port is closed, the target system will respond with a RST (reset) packet.
+     If the port is open, the target system will respond with a SYN ACK (synchronize-acknowledge) packet.
+     If the port is closed, the target system will respond with a RST q(reset) packet.
      If the port is filtered, the target system will not respond at all.
 
      By analyzing the responses from the target system, an attacker can determine which ports are open and which are closed or filtered. 
@@ -33,7 +34,8 @@ Nmap (Network Mapper) is a free and open-source tool used for network exploratio
     UDP is a connectionless protocol, and unlike TCP, there is no handshake process to establish a connection. 
     This makes UDP scans more difficult than TCP scans, as there is no confirmation that the packet has reached its destination.
 
-    UDP scans work by sending a UDP packet to a specific port on the target system. If the port is open, the target system will respond with a UDP packet. If the port is       closed, the target system will respond with an ICMP (Internet Control Message Protocol) packet indicating that the port is unreachable. If the port is filtered, the         target system will not respond at all.
+    UDP scans work by sending a UDP packet to a specific port on the target system. If the port is open, the target system will respond with a UDP packet. If the port is       closed, the target system will respond with an ICMP (Internet Control Message Protocol) packet indicating that the port is unreachable.
+    If the port is filtered, the target system will not respond at all.
 
     UDP scans can be used to identify potential vulnerabilities in services that use the UDP protocol, such as DNS (Domain Name System), DHCP (Dynamic Host Configuration       Protocol), and SNMP (Simple Network Management Protocol). 
     However, UDP scans are often less reliable than TCP scans, as they can be affected by network congestion, packet loss, and other factors.
