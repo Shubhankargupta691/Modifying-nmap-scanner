@@ -4,3 +4,10 @@ Nmap (Network Mapper) is a free and open-source tool used for network exploratio
 
 # REQUIREMENTS
  import nmap
+ 
+# HOW To use:
+ Enter the IP address  you want to scan.
+ Enter the type of scan you want to run
+     1) SYN ACK scan
+     2) UDP Scan
+     3) Comprehensive Scan
